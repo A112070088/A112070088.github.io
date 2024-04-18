@@ -23,7 +23,12 @@
             }
             .navbar {
                 background-color: #004F87 !important;
-                background-image: url("https://www.transparenttextures.com/patterns/grey-washed-wall.png");
+                background-image: url("https://www.transparenttextures.com/patterns/grey-washed-wall.png") !important;
+            }
+            .nav-item a:hover {
+                color: #ffffff;
+                background-color: rgba(0, 0, 0, 0.5);
+                transition: background-color 0.3s ease;
             }
             h1,h2,h3,h4 .text-primary {
                 color:#FFFFFF;
@@ -32,15 +37,19 @@
                 color: #bfc0c0;
             }
             .subheading {
-                color: #FFFFFF;
+                color: #FFFFFF !important;
+            }
+            .social-icons :hover {
+                background-color: #ffffff !important;
+                color: #000000;
             }
             .custom-text-color {
                 color: #228cdb;
-                transition: color 0.3s ease; 
+                transition: color 0.5s ease; 
             }
-            .custom-text-color:hover,
-            .social-icons a:hover {
+            .custom-text-color:hover{
                 color: #ffffff;
+                transition: color 0.5s ease;    
             }
         </style>
     </head>
@@ -105,27 +114,26 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">景興國中<a class="social-icon" href="https://www.chhs.tp.edu.tw/nss/p/index" target="_blank"><i class="fa-solid fa-code-branch"></i></i></a>
-                            
-                            <div class="subheading mb-3">畢業生</div></h3>
+                            <h3 class="mb-0">景興國中<a class="social-icon" href="https://www.chhs.tp.edu.tw/nss/p/index" target="_blank"><i class="fa-solid fa-link" style="color: #228cdb;"></i></a>
+                                <div class="subheading mb-3">畢業生</div>
+                            </h3>
                             <p></p><br><br>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2017 - July 2020</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">新店高中<a class="social-icon" href="https://www.htsh.ntpc.edu.tw/" target="_blank"><i class="fa-solid fa-code-branch"></i></i></a>
-                            
-                            <div class="subheading mb-3">畢業生</div></h3>
+                            <h3 class="mb-0">新店高中<a class="social-icon" href="https://www.htsh.ntpc.edu.tw/" target="_blank"><i class="fa-solid fa-link" style="color: #228cdb;"></i></a>
+                                <div class="subheading mb-3">畢業生</div>
+                            </h3>
                             <p></p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2020 - June 2023</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">世新大學資訊傳播學系<a class="social-icon" href="https://ics.wp.shu.edu.tw/" target="_blank"><i class="fa-solid fa-code-branch"></i></i></a>
-                            
-                            <div class="subheading mb-3">在校生</div>
+                            <h3 class="mb-0">世新大學資訊傳播學系<a class="social-icon" href="https://ics.wp.shu.edu.tw/" target="_blank"><i class="fa-solid fa-link" style="color: #228cdb;"></i></a>
+                                <div class="subheading mb-3">在校生</div>
                             </h3>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2023 - Now</span></div>
@@ -139,18 +147,12 @@
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-solid fa-file-word"></i>
+                        <i class="fa-solid fa-file-powerpoint"></i>
+                        <i class="fa-solid fa-file-excel"></i>
+                        <i class="fa-brands fa-discord"></i>
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
