@@ -16,6 +16,39 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/mystyle.css">
+        <style>
+            body {
+                background-color: #2D3142;
+                background-image: url("https://www.transparenttextures.com/patterns/cross-stripes.png");
+            }
+            .navbar {
+                background-color: #004F87 !important;
+                background-image: url("https://www.transparenttextures.com/patterns/grey-washed-wall.png") !important;
+            }
+            .nav-item a:hover {
+                color: #000000;
+
+            }
+            h1,h2,h3,h4 .text-primary {
+                color:#FFFFFF;
+            }
+            .lead {
+                color: #bfc0c0;
+            }
+            .subheading {
+                color: #FFFFFF !important;
+            }
+            .custom-text-color:hover,
+            .social-icons a:hover {
+                background-color: #ffffff !important;
+                color: #000000;
+            }
+
+            .custom-text-color {
+                color: #228cdb;
+                transition: color 0.5s ease; 
+            }
+        </style>
     </head>
     <body id="page-top">
         
@@ -44,11 +77,11 @@
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         高碩良<br>
-                        <span class="text-primary">Gao-shou-liang</span>
+                        <span class="custom-text-color">Gao-shou-liang</span>
                     </h1>
                     <div class="subheading mb-5">
                         116 台北市木柵路1段17巷1號。 
-                        <a href="mailto:name@email.com">A112070088@mail.shu.edu.tw</a>
+                        <a href="A112070088@mail.shu.edu.tw" class="custom-text-color">A112070088@mail.shu.edu.tw</a>
                     </div>
                     <p class="lead mb-5">我是世新大學的學生高碩良，我平常的興趣大部分都是玩電腦遊戲居多，主要是玩特戰英豪、APEX等第一人稱射擊遊戲，也會接觸其他類型的遊戲，但是就比較少玩。<br>Hey there! I'm Gao Shuoliang, a student at Shih Hsin University. Most of my free time revolves around gaming, especially first-person shooters like Valorant and APEX. I dabble in other game genres too, but they don't grab me as much.</p>
                     <div class="social-icons">
@@ -78,8 +111,7 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">景興國中<a class="social-icon" href="https://www.chhs.tp.edu.tw/nss/p/index" target="_blank"><i class="fa-solid fa-code-branch"></i></i></a>
-                            
+                            <h3 class="mb-0">景興國中<a class="social-icon" href="https://www.chhs.tp.edu.tw/nss/p/index" target="_blank"><i class="fa-solid fa-link"></i></i></a>
                             <div class="subheading mb-3">畢業生</div></h3>
                             <p></p><br><br>
                         </div>
@@ -87,7 +119,7 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">新店高中<a class="social-icon" href="https://www.htsh.ntpc.edu.tw/" target="_blank"><i class="fa-solid fa-code-branch"></i></i></a>
+                            <h3 class="mb-0">新店高中<a class="social-icon" href="https://www.htsh.ntpc.edu.tw/" target="_blank"><i class="fa-solid fa-link"></i></i></a>
                             
                             <div class="subheading mb-3">畢業生</div></h3>
                             <p></p>
@@ -96,7 +128,7 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">世新大學資訊傳播學系<a class="social-icon" href="https://ics.wp.shu.edu.tw/" target="_blank"><i class="fa-solid fa-code-branch"></i></i></a>
+                            <h3 class="mb-0">世新大學資訊傳播學系<a class="social-icon" href="https://ics.wp.shu.edu.tw/" target="_blank"><i class="fa-solid fa-link"></i></i></a>
                             
                             <div class="subheading mb-3">在校生</div>
                             </h3>
@@ -112,18 +144,12 @@
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-solid fa-file-word"></i>
+                        <i class="fa-solid fa-file-powerpoint"></i>
+                        <i class="fa-solid fa-file-excel"></i>
+                        <i class="fa-brands fa-discord"></i>
                     </ul>
                     <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
