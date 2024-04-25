@@ -1,8 +1,15 @@
-/*  <uniquifier>: Use a unique and descriptive class name*/
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap);
 
-h4,h3,h2,h1 {
+body{
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
   font-family: "Noto Sans TC", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+h1 {
+  text-transform: none;
 }
