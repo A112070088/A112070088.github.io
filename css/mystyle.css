@@ -13,3 +13,37 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
   text-transform: none;
 }
+body {
+  background-color: #2D3142;
+  background-image: url("https://www.transparenttextures.com/patterns/cross-stripes.png");
+}
+.navbar {
+  background-color: #004F87 !important;
+  background-image: url("https://www.transparenttextures.com/patterns/grey-washed-wall.png") !important;
+}
+.nav-item a:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: background-color 0.3s ease;
+}
+h1,h2,h3,h4 .text-primary {
+  color:#FFFFFF;
+}
+.lead {
+  color: #bfc0c0;
+}
+.subheading {
+  color: #FFFFFF !important;
+}
+.social-icons :hover {
+  background-color: #ffffff !important;
+  color: #000000;
+}
+.custom-text-color {
+  color: #228cdb;
+  transition: color 0.5s ease; 
+}
+.custom-text-color:hover{
+  color: #ffffff;
+  transition: color 0.5s ease;    
+}
